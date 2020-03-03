@@ -1,7 +1,7 @@
-const express = require("../node_modules/express");
-const router = express.Router();
-const Person = require("../../models/Person");
-
+const express = require('express'),
+    router = express.Router(),
+    Person = requre('../models/Person');
+    
 router.get("/", async (req, res) => {
     try {
       const persons = await Person.find();
