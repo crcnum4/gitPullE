@@ -1,4 +1,4 @@
-create the file Place.js in model
+create the file <initials>-Place.js in model
 create a model that takes State, City, Street
 city and state should be required
 this should be done on a branch NOT on master
